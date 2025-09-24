@@ -2,30 +2,30 @@
 # 📓 Personal Diary Management System
 
 ## 📌 Overview
-The **Personal Diary Management System** is a beginner-friendly Java project that allows users to add, view, delete, and list diary entries.  
-It uses **Serialization** to save and load diary entries from a file (`diaryEntries.ser`).
+A beginner-friendly **Java console application** to manage personal diary entries.  
+This project was built during my 2nd year of B.Tech to practice **OOP concepts** and **file serialization** in Java.  
 
 ---
 
-## 🚀 Features
-- Add diary entries (date, title, content)
-- View specific entries by date
-- Delete entries by date
-- List all diary entries
-- Data persistence using Java Serialization
+## ✨ Features
+- ➕ Add a new diary entry (date, title, content)  
+- 👀 View a diary entry by date  
+- ❌ Delete an entry by date  
+- 📃 List all saved entries  
+- 💾 Save entries to file (`diaryEntries.ser`) and reload on next run  
 
 ---
 
 ## 🛠 Tech Stack
-- **Language:** Java  
-- **Storage:** File handling (`ObjectOutputStream` / `ObjectInputStream`)  
+- **Language:** Java  (tested on Java 11 & above)
+- **Storage:** **Serialization** (`.ser` file)
 
 ---
 
 ## ⚙️ How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/personal-diary-management.git
+   git clone https://github.com/GITS1D4/Personal-Diary-Management.git
    cd personal-diary-management
 
 
